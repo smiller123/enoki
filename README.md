@@ -1,13 +1,13 @@
 # Enoki
 Enoki is a framework for rapid development of Linux kernel schedulers. It will be presented at Eurosys '24.
 
-The main directories are bento, enoki-schedulers, and enoki-kernel.
+The main directories are `bento`, `enoki-schedulers`, and `enoki-kernel`.
 
-The enoki-kernel repository holds the custom modified kernel for enoki. The kernel must be compiled and installed before the schedulers will build. The module linked under this directory can be found at [https://gitlab.cs.washington.edu/sm237/ghost-kernel](https://gitlab.cs.washington.edu/sm237/ghost-kernel).
+The `enoki-kernel` repository holds the custom modified kernel for enoki. The kernel must be compiled and installed before the schedulers will build. The module linked under this directory can be found at [https://gitlab.cs.washington.edu/sm237/ghost-kernel](https://gitlab.cs.washington.edu/sm237/ghost-kernel).
 
-The bento directory contains the framework for supporting safe access to kernel data structures. It builds upon the library used in the Bento work.
+The `bento` directory contains the framework for supporting safe access to kernel data structures. It builds upon the library used in the Bento work.
 
-The enoki-schedulers directory contains the code for the schedulers. The module linked under this directory can be found at [https://gitlab.cs.washington.edu/sm237/bento-ghost](https://gitlab.cs.washington.edu/sm237/bento-ghost).
+The `enoki-schedulers` directory contains the code for the schedulers. The module linked under this directory can be found at [https://gitlab.cs.washington.edu/sm237/bento-ghost](https://gitlab.cs.washington.edu/sm237/bento-ghost).
 
 Currently, documented benchmarks are included in the `enoki-schedulers` directory.
 
