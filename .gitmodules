@@ -2,8 +2,8 @@
 	path = bento
 	url = https://github.com/smiller123/bento.git
 [submodule "bento-ghost"]
-	path = bento-ghost
+	path = enoki-schedulers
 	url = https://gitlab.cs.washington.edu/sm237/bento-ghost.git
 [submodule "ghost-kernel"]
-	path = ghost-kernel
+	path = enoki-kernel
 	url = https://gitlab.cs.washington.edu/sm237/ghost-kernel.git
