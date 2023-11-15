@@ -21,7 +21,7 @@ To update, run `git submodule update --recursive --remote`.
 Then, build the code in the submodules following the instructions there.
 Start with `enoki-kernel`. Build and install the kernel following the instructions in this repository.
 
-Then, move to the `bento` repository. Run `git submodule update --init --recursive` to ensure that the submodules are loaded. Run `git checkout ghost-support` to switch to the correct branch. This directory does not need to be compiled because it is used as a library in the next step.
+Then, move to the `bento` repository. Run `git submodule update --init --recursive` to ensure that the submodules are loaded. Run `git checkout enoki-support` to switch to the correct branch. This directory does not need to be compiled because it is used as a library in the next step.
 
 Move to the `enoki-schedulers` directory. Compile and test the scheduler according to the instructions in that directory.
 
